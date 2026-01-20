@@ -71,3 +71,11 @@ overflow: hidden;
   padding: 1rem 2rem;
   border-radius: 8px;
 }
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
