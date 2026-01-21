@@ -24,7 +24,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #599df0;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -34,7 +34,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #3867a0;
 }
 
 /* Add a background color and some padding around the form */
@@ -72,10 +72,42 @@ overflow: hidden;
   border-radius: 8px;
 }
 
+.card {
+  font-family: 'Josefin Sans';
+}
+
 .card-container {
   display: flex;
   flex-direction: row;
   gap: 8px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+* Footer styling similar to navbar */
+footer {
+background-color: #599df0; 
+color: #fff; 
+font-family: 'Josefin Sans'; 
+text-align: center; 
+padding: 1.5rem 1rem; 
+}
+
+footer p {
+margin: 0;
+font-size: 1rem;
+font-weight: bold;
+}
+footer small {
+display: block;
+margin-top: 0.5rem;
+font-size: 0.9rem;
+}
+/* Social icons specific spacing (optional) */
+.site-footer .social-links i {
+margin-left: 5px;
+}
+
+.container {
+  background-color: #cee3ff;
 }
