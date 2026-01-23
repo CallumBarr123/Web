@@ -84,15 +84,14 @@ overflow: hidden;
   flex-wrap: wrap;
 }
 
-* Footer styling similar to navbar */
 footer {
-background-color: #599df0; 
-color: #fff; 
-font-family: 'Josefin Sans'; 
-text-align: center; 
-padding: 1.5rem 1rem; 
+background-color: #6ea0e2;
+color: #fff;
+font-family: 'Josefin Sans';
+text-align: center;
+padding: 1.5rem 1rem;
 }
-
+ 
 footer p {
 margin: 0;
 font-size: 1rem;
@@ -107,6 +106,7 @@ font-size: 0.9rem;
 .site-footer .social-links i {
 margin-left: 5px;
 }
+
 
 .container {
   background-color: #cee3ff;
